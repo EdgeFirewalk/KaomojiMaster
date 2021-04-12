@@ -1,0 +1,22 @@
+﻿<Window x:Name="mainWin" x:Class="KaomojiMaster.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KaomojiMaster"
+        mc:Ignorable="d"
+        Title="Kaomoji Master" Height="491.333" Width="400" ResizeMode="NoResize" Icon="icon.ico" Background="#FFAB65E1" Foreground="White">
+    <Grid>
+        <ComboBox x:Name="emotionsComboBox" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="366" Height="25" SelectionChanged="emotionsComboBox_SelectionChanged" Text="(⌒ω⌒)ﾉ Welcome!" FontFamily="Calibri" FontWeight="Bold" FontSize="14" BorderBrush="{x:Null}" IsEditable="True" IsReadOnly="True"/>
+        <ListBox x:Name="kaomojisListBox" HorizontalAlignment="Left" Height="340" Margin="10,60,0,0" VerticalAlignment="Top" Width="366" SelectionChanged="kaomojisListBox_SelectionChanged" FontFamily="Calibri" FontSize="20" MouseDoubleClick="kaomojisListBox_MouseDoubleClick" Background="#FF7C40AC" BorderBrush="{x:Null}" Foreground="White">
+        </ListBox>
+        <Label x:Name="copiedToClipLabel" Content="!COPIED TO CLIPBOARD!" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="10,30,0,0" VerticalAlignment="Top" Width="366" HorizontalContentAlignment="Center" FontFamily="Calibri" FontWeight="Bold" FontSize="20" Height="34" Foreground="White"/>
+        <Image x:Name="upArrow" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Margin="282,40,0,0" Source="arrow.png"/>
+        <Label x:Name="chooseAnEmTextLabel" Content="CHOOSE AN &#10;EMOTION&#10;HERE  (*・ω・)ﾉ" HorizontalAlignment="Left" Margin="187,107,0,0" VerticalAlignment="Top" Width="132" FontFamily="Calibri" FontWeight="Bold" FontSize="20" Height="80" Foreground="White"/>
+        <Label x:Name="tipsTextLabel" Content="• Click - Copy Kaomoji to clipboard&#10;• Double Сlick - Copy Kaomoji + minimize&#10;                                                                window" HorizontalAlignment="Left" Margin="10,274,0,0" VerticalAlignment="Top" Width="366" FontFamily="Calibri" FontWeight="Bold" FontSize="20" Height="81" Foreground="White"/>
+
+        <Label x:Name="currentKaoTextLabel" Content="Current Kaomoji: " HorizontalAlignment="Left" Margin="2,415,0,0" VerticalAlignment="Top" Width="374" FontSize="20" Height="37" Foreground="White"/>
+        <Label x:Name="refTextLabel" Content="All kaomojis were taken from this site: http://kaomoji.ru/" HorizontalAlignment="Left" Margin="10,371,0,0" VerticalAlignment="Top" Width="366" Height="29" FontWeight="Bold" FontSize="13" Cursor="Hand" MouseDown="refTextLabel_MouseDown"/>
+
+    </Grid>
+</Window>

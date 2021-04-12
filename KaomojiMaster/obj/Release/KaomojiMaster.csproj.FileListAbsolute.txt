@@ -1,0 +1,15 @@
+C:\Users\Игорь\Desktop\KaomojiMaster\KaomojiMaster\bin\Release\KaomojiMaster.exe.config
+C:\Users\Игорь\Desktop\KaomojiMaster\KaomojiMaster\bin\Release\KaomojiMaster.exe
+C:\Users\Игорь\Desktop\KaomojiMaster\KaomojiMaster\bin\Release\KaomojiMaster.pdb
+C:\Users\Игорь\Desktop\KaomojiMaster\KaomojiMaster\obj\Release\KaomojiMaster.csprojAssemblyReference.cache
+C:\Users\Игорь\Desktop\KaomojiMaster\KaomojiMaster\obj\Release\MainWindow.g.cs
+C:\Users\Игорь\Desktop\KaomojiMaster\KaomojiMaster\obj\Release\App.g.cs
+C:\Users\Игорь\Desktop\KaomojiMaster\KaomojiMaster\obj\Release\KaomojiMaster_MarkupCompile.cache
+C:\Users\Игорь\Desktop\KaomojiMaster\KaomojiMaster\obj\Release\KaomojiMaster_MarkupCompile.lref
+C:\Users\Игорь\Desktop\KaomojiMaster\KaomojiMaster\obj\Release\MainWindow.baml
+C:\Users\Игорь\Desktop\KaomojiMaster\KaomojiMaster\obj\Release\KaomojiMaster.g.resources
+C:\Users\Игорь\Desktop\KaomojiMaster\KaomojiMaster\obj\Release\KaomojiMaster.Properties.Resources.resources
+C:\Users\Игорь\Desktop\KaomojiMaster\KaomojiMaster\obj\Release\KaomojiMaster.csproj.GenerateResource.cache
+C:\Users\Игорь\Desktop\KaomojiMaster\KaomojiMaster\obj\Release\KaomojiMaster.csproj.CoreCompileInputs.cache
+C:\Users\Игорь\Desktop\KaomojiMaster\KaomojiMaster\obj\Release\KaomojiMaster.exe
+C:\Users\Игорь\Desktop\KaomojiMaster\KaomojiMaster\obj\Release\KaomojiMaster.pdb
