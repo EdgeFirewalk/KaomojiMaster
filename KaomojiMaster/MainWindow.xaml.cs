@@ -8,9 +8,9 @@ namespace KaomojiMaster
 {
     public partial class MainWindow : Window
     {
-        private string emotionsPath;
+        private string emotionsPath; // DISC:\...\.\..\...\Emotions
 
-        private string[] emotions;
+        private string[] emotions;  // EMOTIONS FROM ^ ^ ^
 
         private string selectedEmotion;
 
@@ -22,7 +22,7 @@ namespace KaomojiMaster
         Brush[] fontColors = new Brush[]
         { Brushes.White, Brushes.Black, Brushes.MediumSpringGreen };
 
-        private bool emotionSelected = false;
+        private bool emotionSelected = false; // ACTIVATES WHEN YOU FIRST CHOOSE AN EMOTION TO PREVENT APP FROM DOUBLE CLICK CLOSING
 
         public MainWindow()
         {
