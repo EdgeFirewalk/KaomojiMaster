@@ -1,3 +1,2 @@
 # KaomojiMaster
- Portable Kaomoji collection
-(Under development)
+ Portable Kaomoji collection with Kaomoji creator
