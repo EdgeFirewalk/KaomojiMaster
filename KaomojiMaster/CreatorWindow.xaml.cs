@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Windows;
+using System.Windows.Media;
 
 namespace KaomojiMaster
 {
@@ -27,9 +28,13 @@ namespace KaomojiMaster
                                         "╥╥", "~~", "▼▼", "ÒÓ", "ΦΦ", "☆@", "⇀⇀", "↼↼", "⊙⊙", "□□", "≧≦" };
         string selectedEyes;
 
+        MediaPlayer mpEmotionAdded = new MediaPlayer(); // SOUND THAT USED WHEN YOU CREATE A NEW EMOTION
+
         public CreatorWindow(string emotionsPathFromMain, string[] emotionsFromMain)
         {
             InitializeComponent();
+
+            mpEmotionAdded.Open(new Uri(Environment.CurrentDirectory + "\\emotionAdded.wav"));
 
             //===================JUST COPYING THIS INFO FROM THE MAIN WINDOW=================
             emotionsPath = emotionsPathFromMain; 
@@ -121,6 +126,9 @@ namespace KaomojiMaster
                     File.Create(emotionsPath + "\\" + newEmotionName + ".kao");
                     ReadEmotionsPath(emotionsPath, emotions); // READING IT AGAIN TO ADD NEW EMOTION TO LIST OF EMOTIONS
                     newEmotionArrow.Visibility = Visibility.Visible;
+
+                    mpEmotionAdded.Play();
+                    mpEmotionAdded.Open(new Uri(Environment.CurrentDirectory + "\\emotionAdded.wav"));
                 }
             }
         }
