@@ -13,3 +13,5 @@ C:\Users\Игорь\Desktop\KaomojiMaster\KaomojiMaster\obj\Release\KaomojiMaste
 C:\Users\Игорь\Desktop\KaomojiMaster\KaomojiMaster\obj\Release\KaomojiMaster.csproj.CoreCompileInputs.cache
 C:\Users\Игорь\Desktop\KaomojiMaster\KaomojiMaster\obj\Release\KaomojiMaster.exe
 C:\Users\Игорь\Desktop\KaomojiMaster\KaomojiMaster\obj\Release\KaomojiMaster.pdb
+C:\Users\Игорь\Desktop\KaomojiMaster\KaomojiMaster\obj\Release\CreatorWindow.g.cs
+C:\Users\Игорь\Desktop\KaomojiMaster\KaomojiMaster\obj\Release\CreatorWindow.baml

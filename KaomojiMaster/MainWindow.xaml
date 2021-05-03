@@ -5,14 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:KaomojiMaster"
         mc:Ignorable="d"
-        Title="Kaomoji Master" Height="491.333" Width="400" ResizeMode="NoResize" Icon="icon.ico" Background="#FFAB65E1" Foreground="White">
+        Title="Kaomoji Master" Height="491.333" Width="400" ResizeMode="NoResize" Icon="icon.ico" Background="#FFAB65E1" Foreground="White" KeyDown="mainWin_KeyDown">
     <Grid>
         <ComboBox x:Name="emotionsComboBox" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="366" Height="25" SelectionChanged="emotionsComboBox_SelectionChanged" Text="(⌒ω⌒)ﾉ Welcome!" FontFamily="Calibri" FontWeight="Bold" FontSize="14" BorderBrush="{x:Null}" IsEditable="True" IsReadOnly="True"/>
-        <ListBox x:Name="kaomojisListBox" HorizontalAlignment="Left" Height="340" Margin="10,60,0,0" VerticalAlignment="Top" Width="366" SelectionChanged="kaomojisListBox_SelectionChanged" FontFamily="Calibri" FontSize="20" MouseDoubleClick="kaomojisListBox_MouseDoubleClick" Background="#FF7C40AC" BorderBrush="{x:Null}" Foreground="White">
-        </ListBox>
+        <ListBox x:Name="kaomojisListBox" HorizontalAlignment="Left" Height="340" Margin="10,60,0,0" VerticalAlignment="Top" Width="366" SelectionChanged="kaomojisListBox_SelectionChanged" FontFamily="Calibri" FontSize="20" MouseDoubleClick="kaomojisListBox_MouseDoubleClick" Background="#FF7C40AC" BorderBrush="{x:Null}" Foreground="White"/>
         <Label x:Name="copiedToClipLabel" Content="!COPIED TO CLIPBOARD!" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="10,30,0,0" VerticalAlignment="Top" Width="366" HorizontalContentAlignment="Center" FontFamily="Calibri" FontWeight="Bold" FontSize="20" Height="34" Foreground="White"/>
         <Image x:Name="upArrow" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Margin="282,40,0,0" Source="arrow.png"/>
         <Label x:Name="chooseAnEmTextLabel" Content="CHOOSE AN &#10;EMOTION&#10;HERE  (*・ω・)ﾉ" HorizontalAlignment="Left" Margin="187,107,0,0" VerticalAlignment="Top" Width="132" FontFamily="Calibri" FontWeight="Bold" FontSize="20" Height="80" Foreground="White"/>
+        <Button x:Name="editorButton" Content="F9" HorizontalAlignment="Left" Margin="33,215,0,0" VerticalAlignment="Top" Width="50" Height="35" BorderBrush="White" FontFamily="Calibri" FontSize="22" Background="White" Click="openCreator"/>
+        <Label x:Name="editorTextLabel" Content="- open EDITOR" HorizontalAlignment="Left" Margin="83,215,0,0" VerticalAlignment="Top" Width="131" FontFamily="Calibri" FontWeight="Bold" FontSize="20" Height="35" Foreground="White"/>
         <Label x:Name="tipsTextLabel" Content="• Click - Copy Kaomoji to clipboard&#10;• Double Сlick - Copy Kaomoji + minimize&#10;                                                                window" HorizontalAlignment="Left" Margin="10,274,0,0" VerticalAlignment="Top" Width="366" FontFamily="Calibri" FontWeight="Bold" FontSize="20" Height="81" Foreground="White"/>
 
         <Label x:Name="currentKaoTextLabel" Content="Current Kaomoji: " HorizontalAlignment="Left" Margin="2,415,0,0" VerticalAlignment="Top" Width="374" FontSize="20" Height="37" Foreground="White"/>
